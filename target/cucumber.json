@@ -1,0 +1,539 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 792602500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has launched the Swag Labs Application",
+            "match": {
+              "location": "stepdefs.LoginStepsDef.user_has_launched_the_Swag_Labs_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185551200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefs.LoginStepsDef.user_enter_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 114929500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefs.LoginStepsDef.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115695700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "stepdefs.LoginStepsDef.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9799600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be landed on the Products Page",
+            "match": {
+              "location": "stepdefs.LoginStepsDef.user_should_be_landed_on_the_Products_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-03T23:04:08.273Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1343912300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Add the product to Cart",
+        "description": "",
+        "id": "this-feature-will-be-used-to-test-the-add-to-cart-funcionality-of-swag-labs;add-the-product-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 274082000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 124147800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Product name as \"Sauce Labs Backpack\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefs.AddToCart.i_click_on_Product_name_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87670000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on the Add to cart Button",
+            "match": {
+              "location": "stepdefs.AddToCart.i_click_on_the_Add_to_cart_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113216100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the Shopping cart Link",
+            "match": {
+              "location": "stepdefs.AddToCart.i_click_on_the_Shopping_cart_Link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46474100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify the item on the cart page",
+            "match": {
+              "location": "stepdefs.AddToCart.i_verify_the_item_on_the_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to test the Add to Cart funcionality of Swag Labs",
+    "description": "  I want to use this template for my feature file",
+    "id": "this-feature-will-be-used-to-test-the-add-to-cart-funcionality-of-swag-labs",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/AddToCart.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-03T23:04:11.539Z",
+        "before": [
+          {
+            "result": {
+              "duration": 802068000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify Login Functionality with correct username and password",
+        "description": "",
+        "id": "login-feature-scenarios;verify-login-functionality-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 277383500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 703580100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has launched the Swag Labs Application",
+            "match": {
+              "location": "stepdefs.LoginStepsDef.user_has_launched_the_Swag_Labs_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104685500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefs.LoginStepsDef.user_enter_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104519500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefs.LoginStepsDef.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138149600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "stepdefs.LoginStepsDef.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9552100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be landed on the Products Page",
+            "match": {
+              "location": "stepdefs.LoginStepsDef.user_should_be_landed_on_the_Products_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-03T23:04:13.688Z",
+        "before": [
+          {
+            "result": {
+              "duration": 841301600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify the error message when we give the incorrect username and password",
+        "description": "",
+        "id": "login-feature-scenarios;verify-the-error-message-when-we-give-the-incorrect-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 312791900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 635586700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User has launched the Swag Labs Application",
+            "match": {
+              "location": "stepdefs.LoginStepsDef.user_has_launched_the_Swag_Labs_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 156988000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefs.LoginStepsDef.user_enter_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 108201100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefs.LoginStepsDef.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82219300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "stepdefs.LoginStepsDef.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2070229000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Should be Getting the \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefs.LoginStepsDef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-03T23:04:17.904Z",
+        "before": [
+          {
+            "result": {
+              "duration": 858279000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.SetUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify the error message when we give the incorrect username and password",
+        "description": "",
+        "id": "login-feature-scenarios;verify-the-error-message-when-we-give-the-incorrect-username-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 235095200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.Hooks.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 700502300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User has launched the Swag Labs Application",
+            "match": {
+              "location": "stepdefs.LoginStepsDef.user_has_launched_the_Swag_Labs_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120994500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter username \"locked_out_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"locked_out_user\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefs.LoginStepsDef.user_enter_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102402600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefs.LoginStepsDef.user_enters_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77384800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on Login button",
+            "match": {
+              "location": "stepdefs.LoginStepsDef.user_clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2069475600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Should be Getting the \"Epic sadface: Sorry, this user has been locked out.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Sorry, this user has been locked out.\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepdefs.LoginStepsDef.i_should_get_the_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature Scenarios",
+    "description": "  I want to use this template for my feature file",
+    "id": "login-feature-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
